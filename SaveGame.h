@@ -23,5 +23,5 @@ public:
     /* Saves the positions of all the cards on the table into a SaveTable.txt */
         bool saveTable(Table table);
     /* Saves the deck being used into SaveDeck.txt */
-        bool saveDecl(Deck<Card> deck);
+        bool saveDeck(Deck<Card> deck);
 };
