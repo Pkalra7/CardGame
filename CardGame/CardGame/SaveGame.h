@@ -24,4 +24,5 @@ public:
         bool saveTable(Table table);
     /* Saves the deck being used into SaveDeck.txt */
         bool saveDeck(Deck<Card> deck);
+        bool swagger();
 };
